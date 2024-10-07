@@ -11,7 +11,8 @@
 
 ![image](https://github.com/user-attachments/assets/ef745834-56a2-4d18-8fe6-7f6aae8b1986)
 
-![image](https://github.com/user-attachments/assets/81c80c94-e340-459c-907b-f0c06e565643)
+![image](https://github.com/user-attachments/assets/3bcb85ec-152c-4572-9678-c5765380c575)
+
 
 ## 各云厂商存储桶特征正则检测规则
 参考：https://wiki.teamssix.com/CloudService/more/
