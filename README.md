@@ -8,7 +8,9 @@
 
 ## 各云厂商存储桶特征正则检测规则
 参考：https://wiki.teamssix.com/CloudService/more/
+
 （华为云的Access Key较难匹配，为了降低误报率，排除了对华为云的检测）
+
 	patternMap["阿里云"] = `["'=:,.;](LTAI[A-Za-z0-9]{12,24})["'=:,.;]` // 阿里云 (Alibaba Cloud) 的 Access Key 开头标识一般是 "LTAI"。
 	patternMap["腾讯云"] = `["'=:,.;](AKID[A-Za-z0-9]{13,20})["'=:,.;]` // 腾讯云 (Tencent Cloud) 的 Access Key 开头标识一般是 "AKID"。
 	patternMap["华为云"] = `["'=:,.;]([A-Z0-9]{20})["'=:,.;]`                                 // 华为云 (Huawei Cloud) 的 Access Key 是20个随机大写字母和数字组成，较难用正则表达式匹配。
