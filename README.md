@@ -3,6 +3,10 @@
 
 ## (自行搭建环境测试)
 
+./akScan
+
+![image](https://github.com/user-attachments/assets/f4a3ee35-ac5a-4e7b-bc0b-60d32ebddcc7)
+
 ./akScan -t http://10.10.21.208:8000/
 
 ![image](https://github.com/user-attachments/assets/ef745834-56a2-4d18-8fe6-7f6aae8b1986)
